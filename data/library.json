@@ -106,6 +106,15 @@
       "mime": "image/png",
       "size": 353257,
       "createdAt": "2026-10-11T15:39:05.920Z"
+    },
+    {
+      "id": "dbcd7169-c841-4c45-b433-979154f903fa",
+      "path": "files/dbcd7169-c841-4c45-b433-979154f903fa.png",
+      "name": "02-hair-passport",
+      "folderId": null,
+      "mime": "image/png",
+      "size": 243391,
+      "createdAt": "2026-10-11T15:39:10.509Z"
     }
   ]
 }
