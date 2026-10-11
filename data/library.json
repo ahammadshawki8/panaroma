@@ -7,5 +7,15 @@
       "createdAt": "2026-10-11T14:31:24.608Z"
     }
   ],
-  "files": []
+  "files": [
+    {
+      "id": "a81126d8-480d-45c1-8d75-5ef5703d5332",
+      "path": "files/a81126d8-480d-45c1-8d75-5ef5703d5332.png",
+      "name": "qa-image",
+      "folderId": null,
+      "mime": "image/png",
+      "size": 70,
+      "createdAt": "2026-10-11T14:31:27.990Z"
+    }
+  ]
 }
