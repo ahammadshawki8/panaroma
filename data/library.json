@@ -7,5 +7,15 @@
       "createdAt": "2026-10-11T14:56:42.094Z"
     }
   ],
-  "files": []
+  "files": [
+    {
+      "id": "20d8f6ca-e313-48e3-8a0e-5f985eb2efa2",
+      "path": "files/20d8f6ca-e313-48e3-8a0e-5f985eb2efa2.png",
+      "name": "ChatGPT Image Oct 11, 2026, 02_31_33 PM",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/png",
+      "size": 2360307,
+      "createdAt": "2026-10-11T14:57:30.926Z"
+    }
+  ]
 }
