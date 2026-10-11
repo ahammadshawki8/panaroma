@@ -43,6 +43,15 @@
       "mime": "image/gif",
       "size": 10393254,
       "createdAt": "2026-10-11T14:58:20.092Z"
+    },
+    {
+      "id": "dc0ef085-221b-443f-89f5-28b14d4e1c0b",
+      "path": "files/dc0ef085-221b-443f-89f5-28b14d4e1c0b.gif",
+      "name": "explore-without-camera",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/gif",
+      "size": 19761771,
+      "createdAt": "2026-10-11T14:58:30.182Z"
     }
   ]
 }
