@@ -25,6 +25,15 @@
       "mime": "image/png",
       "size": 2270370,
       "createdAt": "2026-10-11T14:57:36.814Z"
+    },
+    {
+      "id": "f0c44a0a-109f-4580-bdb9-3d5a320c2b34",
+      "path": "files/f0c44a0a-109f-4580-bdb9-3d5a320c2b34.png",
+      "name": "bloom-evidence-poster",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/png",
+      "size": 108212,
+      "createdAt": "2026-10-11T14:58:07.706Z"
     }
   ]
 }
