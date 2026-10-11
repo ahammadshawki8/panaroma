@@ -18,7 +18,9 @@ The public page can display the library without signing in. To make changes, cre
 2. Repository access: only `panaroma`.
 3. Repository permissions: **Contents: Read and write**. GitHub adds Metadata read access automatically.
 
-Open the site, select **Connect GitHub**, and paste the token. The app checks the GitHub account and repository before saving it in this browser's local storage. You do not need to grant permission for every action. Disconnect removes the token from this browser. Never put a token into this repository, a screenshot, or a shared link.
+Open the site, select **Connect GitHub**, and paste the token. The app checks the GitHub account and tests repository write access before saving it in this browser's local storage. This check does not create a commit. You do not need to grant permission for every action. Disconnect removes the token from this browser. Never put a token into this repository, a screenshot, or a shared link.
+
+If GitHub says "Resource not accessible by personal access token," check the token's **resource owner**, **selected repositories**, and **Repository permissions > Contents**. A token can read this public repository even if it cannot write to it, so being able to connect in an older version of the app did not prove write access. After correcting the token settings, open **Connected** on the site and paste the updated token to reconnect.
 
 The app makes requests directly from your browser to GitHub's API. GitHub Pages does not run a backend. On a different browser or after clearing browser storage, you will need to connect again. If your token expires or is revoked, create a new one and reconnect.
 

@@ -77,11 +77,24 @@ async function github(path, options = {}) {
   if (!response.ok) {
     let message = `GitHub returned ${response.status}.`;
     try { message = (await response.json()).message || message; } catch { /* Keep the status message. */ }
+    const permissionDenied = response.status === 403 && /resource not accessible by personal access token/i.test(message);
+    if (permissionDenied) {
+      message = `GitHub denied write access to ${OWNER}/${REPO}. Edit or create a fine-grained token with resource owner ${OWNER}, repository access to ${REPO}, and Repository permissions > Contents set to Read and write. Then reconnect with that token.`;
+    }
     const error = new Error(message);
     error.status = response.status;
+    error.permissionDenied = permissionDenied;
     throw error;
   }
   return response.status === 204 ? null : response.json();
+}
+
+async function verifyWriteAccess() {
+  // The empty blob checks Contents write access without changing a branch or creating a commit.
+  await github('/git/blobs', {
+    method: 'POST',
+    body: JSON.stringify({ content: '', encoding: 'utf-8' })
+  });
 }
 
 function textToBase64(value) {
@@ -113,6 +126,7 @@ async function readRemoteLibrary() {
 async function loadLibrary() {
   try {
     if (state.token) {
+      await verifyWriteAccess();
       state.library = (await readRemoteLibrary()).library;
     } else {
       const response = await fetch(new URL(`data/library.json?v=${Date.now()}`, siteRoot), { cache: 'no-store' });
@@ -123,10 +137,16 @@ async function loadLibrary() {
     }
     render();
   } catch (error) {
-    if (state.token && error.status === 401) {
+    if (state.token && (error.status === 401 || error.permissionDenied)) {
       disconnect(false);
       await loadLibrary();
-      toast('Your GitHub connection expired. Connect again to make changes.');
+      if (error.permissionDenied) {
+        $('#connect-error').textContent = error.message;
+        $('#connect-error').hidden = false;
+        $('#connect-dialog').showModal();
+      } else {
+        toast('Your GitHub connection expired. Connect again to make changes.');
+      }
       return;
     }
     render();
@@ -181,6 +201,7 @@ async function connect() {
     const user = await userResponse.json();
     if (user.login.toLowerCase() !== OWNER.toLowerCase()) throw new Error(`Use a token from the ${OWNER} account.`);
     const { library } = await readRemoteLibrary();
+    await verifyWriteAccess();
     state.library = library;
     localStorage.setItem(tokenKey, token);
     input.value = '';
