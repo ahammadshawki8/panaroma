@@ -97,6 +97,15 @@
       "mime": "image/gif",
       "size": 17485270,
       "createdAt": "2026-10-11T15:23:37.502Z"
+    },
+    {
+      "id": "373d2afa-15b6-4b42-b969-23c34056843d",
+      "path": "files/373d2afa-15b6-4b42-b969-23c34056843d.png",
+      "name": "01-landing-page",
+      "folderId": null,
+      "mime": "image/png",
+      "size": 353257,
+      "createdAt": "2026-10-11T15:39:05.920Z"
     }
   ]
 }
