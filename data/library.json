@@ -151,6 +151,15 @@
       "mime": "image/png",
       "size": 387230,
       "createdAt": "2026-10-11T15:39:29.523Z"
+    },
+    {
+      "id": "25a20bc0-f204-4cba-a246-18cd6a8ad617",
+      "path": "files/25a20bc0-f204-4cba-a246-18cd6a8ad617.png",
+      "name": "07-choice-and-next-steps",
+      "folderId": null,
+      "mime": "image/png",
+      "size": 292150,
+      "createdAt": "2026-10-11T15:39:33.325Z"
     }
   ]
 }
