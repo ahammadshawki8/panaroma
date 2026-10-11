@@ -34,6 +34,15 @@
       "mime": "image/png",
       "size": 108212,
       "createdAt": "2026-10-11T14:58:07.706Z"
+    },
+    {
+      "id": "35eaca94-4220-4eba-909d-5dc7ed95b743",
+      "path": "files/35eaca94-4220-4eba-909d-5dc7ed95b743.gif",
+      "name": "choose-together",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/gif",
+      "size": 10393254,
+      "createdAt": "2026-10-11T14:58:20.092Z"
     }
   ]
 }
