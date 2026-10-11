@@ -52,6 +52,15 @@
       "mime": "image/gif",
       "size": 19761771,
       "createdAt": "2026-10-11T14:58:30.182Z"
+    },
+    {
+      "id": "7c7e9370-3212-4695-9408-52460caaa60a",
+      "path": "files/7c7e9370-3212-4695-9408-52460caaa60a.gif",
+      "name": "find-and-try",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/gif",
+      "size": 11635253,
+      "createdAt": "2026-10-11T14:58:39.911Z"
     }
   ]
 }
