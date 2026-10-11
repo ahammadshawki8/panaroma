@@ -133,6 +133,15 @@
       "mime": "image/png",
       "size": 632344,
       "createdAt": "2026-10-11T15:39:20.108Z"
+    },
+    {
+      "id": "ecb15d0b-5722-41a4-8f13-a14c504b9393",
+      "path": "files/ecb15d0b-5722-41a4-8f13-a14c504b9393.png",
+      "name": "05-wrap-and-beauty-options",
+      "folderId": null,
+      "mime": "image/png",
+      "size": 368551,
+      "createdAt": "2026-10-11T15:39:24.816Z"
     }
   ]
 }
