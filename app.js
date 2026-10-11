@@ -1,4 +1,5 @@
 import { OWNER, REPO, BRANCH, assetUrl, emptyLibrary, extensionForFile, formatBytes, newAssetPath, safeDisplayName, validLibrary, validateImage } from './lib.js';
+import { createBackupPlan, createZip } from './backup.js';
 
 const siteRoot = new URL('./', import.meta.url);
 const apiRoot = `https://api.github.com/repos/${OWNER}/${REPO}`;
@@ -500,6 +501,52 @@ async function copyText(value) {
   toast('Copied to clipboard.');
 }
 
+async function downloadBackup() {
+  if (state.busy) return;
+  setBusy(true);
+  const label = $('#backup-button span');
+  label.textContent = 'Preparing...';
+  try {
+    let library;
+    if (state.token) {
+      library = (await readRemoteLibrary()).library;
+    } else {
+      const response = await fetch(new URL(`data/library.json?v=${Date.now()}`, siteRoot), { cache: 'no-store' });
+      if (!response.ok) throw new Error('Could not load the image library.');
+      library = await response.json();
+    }
+    const plan = createBackupPlan(library, siteRoot);
+    const entries = plan.folders.map((folder) => ({ path: `${folder.backupPath}/`, data: '' }));
+    if (plan.files.some((file) => file.backupPath.startsWith('Unfiled/'))) entries.push({ path: 'Unfiled/', data: '' });
+    for (let index = 0; index < plan.files.length; index++) {
+      const file = plan.files[index];
+      toast(`Downloading image ${index + 1} of ${plan.files.length}`);
+      const response = await fetch(file.publicUrl, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Could not download ${file.name} (HTTP ${response.status}). Wait for GitHub Pages to publish, then try again.`);
+      const data = await response.blob();
+      if (data.size !== file.size) throw new Error(`The downloaded copy of ${file.name} has an unexpected size. Try again after publishing finishes.`);
+      entries.push({ path: file.backupPath, data });
+    }
+    entries.push({ path: 'manifest.json', data: `${JSON.stringify(plan.manifest, null, 2)}\n` });
+    toast('Packing backup ZIP...');
+    const archive = await createZip(entries);
+    const url = URL.createObjectURL(archive);
+    const link = node('a');
+    link.href = url;
+    link.download = `panaroma-backup-${new Date().toISOString().slice(0, 10)}.zip`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+    toast(`Backup ready with ${plan.files.length} image${plan.files.length === 1 ? '' : 's'} and ${plan.folders.length} folder${plan.folders.length === 1 ? '' : 's'}.`);
+  } catch (error) {
+    toast(`Backup failed: ${error.message}`);
+  } finally {
+    label.textContent = 'Download backup';
+    setBusy(false);
+  }
+}
+
 async function uploadFiles(fileList) {
   if (!requireConnection() || state.busy) return;
   const files = Array.from(fileList);
@@ -552,8 +599,9 @@ function chooseFiles() {
 
 document.querySelectorAll('[data-view]').forEach((button) => button.addEventListener('click', () => switchView(button.dataset.view)));
 $('#search-input').addEventListener('input', (event) => { state.query = event.target.value.trim().toLowerCase(); render(); });
-for (const selector of ['#hero-upload', '#toolbar-upload', '#browse-button']) $(selector).addEventListener('click', (event) => { event.stopPropagation(); chooseFiles(); });
+for (const selector of ['#toolbar-upload', '#browse-button']) $(selector).addEventListener('click', (event) => { event.stopPropagation(); chooseFiles(); });
 for (const selector of ['#new-folder-button', '#sidebar-new-folder']) $(selector).addEventListener('click', () => openEdit('folder'));
+$('#backup-button').addEventListener('click', downloadBackup);
 elements.fileInput.addEventListener('change', (event) => uploadFiles(event.target.files));
 elements.drop.addEventListener('click', chooseFiles);
 elements.drop.addEventListener('dragover', (event) => { event.preventDefault(); elements.drop.classList.add('dragging'); });

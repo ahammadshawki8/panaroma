@@ -7,6 +7,7 @@ Panaroma is a small, single-page image library hosted on GitHub Pages. It uses a
 - Upload PNG, JPG, GIF, WebP, and AVIF images, up to 20 MB each.
 - Create virtual folders, rename images, and move images between folders.
 - Copy direct image links, Markdown, or HTML snippets.
+- Download a ZIP backup with images arranged in virtual folders and a `manifest.json` listing every folder, file, original path, and public URL.
 - Keep each image at a fixed `files/<id>.<extension>` path, so renaming or moving it does not change its embed URL.
 - Delete an image when you no longer need it. Deleting an image breaks its embed URL.
 
@@ -33,6 +34,10 @@ https://ahammadshawki8.github.io/panaroma/files/4f6c....png
 ```
 
 The display name and folder live in [`data/library.json`](data/library.json). They are metadata, not physical directories. Editing them creates a small commit but does not move the image. New uploads can take a minute to appear at their public URL while GitHub Pages publishes the latest commit.
+
+## Download a backup
+
+Select **Download backup** in the library toolbar. The browser fetches every image and creates a ZIP with one directory per virtual folder. Images outside folders go into `Unfiled/`, and empty folders are included. `manifest.json` records the display names, IDs, original repository paths, public URLs, and paths inside the ZIP. The backup does not contain your token. If an image has not reached GitHub Pages yet, wait for publishing and try again. The app stops instead of downloading an incomplete ZIP.
 
 ## Hosting and limits
 

@@ -41,3 +41,14 @@
   .overview-card{min-height:60px}
   .drop-zone{min-height:60px}
 }
+
+@media (min-width:701px) and (max-width:1200px){
+  .section-head{align-items:start;flex-direction:column}
+  .section-actions{width:100%;flex-wrap:wrap}
+  .search-box{flex:1;min-width:150px}
+  .search-box input{width:100%}
+}
+
+@media (max-width:700px){
+  #backup-button{flex-basis:100%}
+}
