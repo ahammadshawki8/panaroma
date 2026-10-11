@@ -1,5 +1,11 @@
 {
   "version": 1,
-  "folders": [],
+  "folders": [
+    {
+      "id": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "name": "Bloom",
+      "createdAt": "2026-10-11T14:56:42.094Z"
+    }
+  ],
   "files": []
 }
