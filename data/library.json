@@ -70,6 +70,15 @@
       "mime": "image/gif",
       "size": 12451659,
       "createdAt": "2026-10-11T14:58:49.279Z"
+    },
+    {
+      "id": "454e3723-0750-4b9a-927d-792980797c8a",
+      "path": "files/454e3723-0750-4b9a-927d-792980797c8a.png",
+      "name": "diagram2",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/png",
+      "size": 643493,
+      "createdAt": "2026-10-11T15:03:42.799Z"
     }
   ]
 }
