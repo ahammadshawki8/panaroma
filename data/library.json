@@ -79,6 +79,15 @@
       "mime": "image/png",
       "size": 643493,
       "createdAt": "2026-10-11T15:03:42.799Z"
+    },
+    {
+      "id": "f4ada1f6-7109-4ec2-9ddc-5d876c83de60",
+      "path": "files/f4ada1f6-7109-4ec2-9ddc-5d876c83de60.png",
+      "name": "diagram1",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/png",
+      "size": 296749,
+      "createdAt": "2026-10-11T15:03:47.613Z"
     }
   ]
 }
