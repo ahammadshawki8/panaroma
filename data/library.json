@@ -61,6 +61,15 @@
       "mime": "image/gif",
       "size": 11635253,
       "createdAt": "2026-10-11T14:58:39.911Z"
+    },
+    {
+      "id": "6fe86c06-8625-4de2-8c06-5e2da5f3e16c",
+      "path": "files/6fe86c06-8625-4de2-8c06-5e2da5f3e16c.gif",
+      "name": "hair-passport",
+      "folderId": "2aa737df-71f2-40cf-b0b8-dbdf7f225360",
+      "mime": "image/gif",
+      "size": 12451659,
+      "createdAt": "2026-10-11T14:58:49.279Z"
     }
   ]
 }
