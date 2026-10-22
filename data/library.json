@@ -237,6 +237,15 @@
       "mime": "image/png",
       "size": 1497261,
       "createdAt": "2026-10-22T15:01:10.932Z"
+    },
+    {
+      "id": "1a5b6e39-ed57-439b-b0b5-aea59ff6cc67",
+      "path": "files/1a5b6e39-ed57-439b-b0b5-aea59ff6cc67.png",
+      "name": "research-poster",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/png",
+      "size": 178100,
+      "createdAt": "2026-10-22T15:01:22.027Z"
     }
   ]
 }
