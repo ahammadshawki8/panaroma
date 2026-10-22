@@ -219,6 +219,15 @@
       "mime": "image/png",
       "size": 154029,
       "createdAt": "2026-10-22T14:26:06.449Z"
+    },
+    {
+      "id": "26882484-0067-414a-ac9a-7594144ba0aa",
+      "path": "files/26882484-0067-414a-ac9a-7594144ba0aa.gif",
+      "name": "graph",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/gif",
+      "size": 19949604,
+      "createdAt": "2026-10-22T14:27:18.946Z"
     }
   ]
 }
