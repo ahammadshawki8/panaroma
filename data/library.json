@@ -228,6 +228,15 @@
       "mime": "image/gif",
       "size": 19949604,
       "createdAt": "2026-10-22T14:27:18.946Z"
+    },
+    {
+      "id": "4ece1486-89cc-4f72-be6d-b2f95b95de86",
+      "path": "files/4ece1486-89cc-4f72-be6d-b2f95b95de86.png",
+      "name": "prints-collage",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/png",
+      "size": 1497261,
+      "createdAt": "2026-10-22T15:01:10.932Z"
     }
   ]
 }
