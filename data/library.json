@@ -174,6 +174,15 @@
       "mime": "image/png",
       "size": 1921645,
       "createdAt": "2026-10-22T12:45:45.385Z"
+    },
+    {
+      "id": "2156abf7-ffd2-4f85-9807-ddad67907ef3",
+      "path": "files/2156abf7-ffd2-4f85-9807-ddad67907ef3.png",
+      "name": "Poster 4_3",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/png",
+      "size": 1901665,
+      "createdAt": "2026-10-22T12:45:54.286Z"
     }
   ]
 }
