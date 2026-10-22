@@ -210,6 +210,15 @@
       "mime": "image/png",
       "size": 139425,
       "createdAt": "2026-10-22T14:26:00.849Z"
+    },
+    {
+      "id": "c6d4097d-ebe6-4089-92ea-98f13fad6c99",
+      "path": "files/c6d4097d-ebe6-4089-92ea-98f13fad6c99.png",
+      "name": "run-issue-4",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/png",
+      "size": 154029,
+      "createdAt": "2026-10-22T14:26:06.449Z"
     }
   ]
 }
