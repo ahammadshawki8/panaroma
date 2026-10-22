@@ -201,6 +201,15 @@
       "mime": "image/png",
       "size": 134588,
       "createdAt": "2026-10-22T14:25:56.012Z"
+    },
+    {
+      "id": "6c13e7c8-f92e-467f-a4ab-c02f0ab387f3",
+      "path": "files/6c13e7c8-f92e-467f-a4ab-c02f0ab387f3.png",
+      "name": "pipeline",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/png",
+      "size": 139425,
+      "createdAt": "2026-10-22T14:26:00.849Z"
     }
   ]
 }
