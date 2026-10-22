@@ -246,6 +246,15 @@
       "mime": "image/png",
       "size": 178100,
       "createdAt": "2026-10-22T15:01:22.027Z"
+    },
+    {
+      "id": "035ffaae-4cd5-41cb-b13f-8354e92eefe7",
+      "path": "files/035ffaae-4cd5-41cb-b13f-8354e92eefe7.gif",
+      "name": "landing",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/gif",
+      "size": 16612217,
+      "createdAt": "2026-10-22T15:43:46.851Z"
     }
   ]
 }
