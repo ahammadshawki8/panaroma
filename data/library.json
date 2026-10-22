@@ -192,6 +192,15 @@
       "mime": "image/png",
       "size": 98011,
       "createdAt": "2026-10-22T14:25:50.884Z"
+    },
+    {
+      "id": "1863cfe7-3637-4ae6-96f9-0e47cdcf3403",
+      "path": "files/1863cfe7-3637-4ae6-96f9-0e47cdcf3403.png",
+      "name": "journey",
+      "folderId": "5ca763d8-9799-4ac9-8234-50a925f63487",
+      "mime": "image/png",
+      "size": 134588,
+      "createdAt": "2026-10-22T14:25:56.012Z"
     }
   ]
 }
