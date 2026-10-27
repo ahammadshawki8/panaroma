@@ -341,6 +341,15 @@
       "mime": "image/gif",
       "size": 3400157,
       "createdAt": "2026-10-27T14:34:47.483Z"
+    },
+    {
+      "id": "71b26a1b-932e-4b52-b3df-fabc8aa82973",
+      "path": "files/71b26a1b-932e-4b52-b3df-fabc8aa82973.gif",
+      "name": "gif-compress",
+      "folderId": "4c64c4e8-3a99-4af7-9816-bcc889826c4f",
+      "mime": "image/gif",
+      "size": 3381428,
+      "createdAt": "2026-10-27T14:34:55.191Z"
     }
   ]
 }
