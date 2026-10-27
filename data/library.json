@@ -305,6 +305,15 @@
       "mime": "image/png",
       "size": 221140,
       "createdAt": "2026-10-27T14:34:08.374Z"
+    },
+    {
+      "id": "bf3dfe97-7a5c-4880-86e8-021d0af81f47",
+      "path": "files/bf3dfe97-7a5c-4880-86e8-021d0af81f47.png",
+      "name": "poster-research",
+      "folderId": "4c64c4e8-3a99-4af7-9816-bcc889826c4f",
+      "mime": "image/png",
+      "size": 283730,
+      "createdAt": "2026-10-27T14:34:15.672Z"
     }
   ]
 }
