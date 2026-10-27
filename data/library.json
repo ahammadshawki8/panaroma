@@ -278,6 +278,15 @@
       "mime": "image/png",
       "size": 2048698,
       "createdAt": "2026-10-27T14:33:48.966Z"
+    },
+    {
+      "id": "d21b018e-9e5f-4e56-91f1-555522c448d6",
+      "path": "files/d21b018e-9e5f-4e56-91f1-555522c448d6.png",
+      "name": "poster-flow",
+      "folderId": "4c64c4e8-3a99-4af7-9816-bcc889826c4f",
+      "mime": "image/png",
+      "size": 201666,
+      "createdAt": "2026-10-27T14:33:54.506Z"
     }
   ]
 }
