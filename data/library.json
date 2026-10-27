@@ -332,6 +332,15 @@
       "mime": "image/png",
       "size": 609745,
       "createdAt": "2026-10-27T14:34:28.110Z"
+    },
+    {
+      "id": "54dfaee1-d68d-454e-b4a6-4941775ce9bc",
+      "path": "files/54dfaee1-d68d-454e-b4a6-4941775ce9bc.gif",
+      "name": "gif-aed",
+      "folderId": "4c64c4e8-3a99-4af7-9816-bcc889826c4f",
+      "mime": "image/gif",
+      "size": 3400157,
+      "createdAt": "2026-10-27T14:34:47.483Z"
     }
   ]
 }
