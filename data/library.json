@@ -296,6 +296,15 @@
       "mime": "image/png",
       "size": 239742,
       "createdAt": "2026-10-27T14:34:00.479Z"
+    },
+    {
+      "id": "aaf6e194-a5d1-4df3-a221-cd58090a9e2a",
+      "path": "files/aaf6e194-a5d1-4df3-a221-cd58090a9e2a.png",
+      "name": "poster-problem",
+      "folderId": "4c64c4e8-3a99-4af7-9816-bcc889826c4f",
+      "mime": "image/png",
+      "size": 221140,
+      "createdAt": "2026-10-27T14:34:08.374Z"
     }
   ]
 }
