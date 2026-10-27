@@ -314,6 +314,15 @@
       "mime": "image/png",
       "size": 283730,
       "createdAt": "2026-10-27T14:34:15.672Z"
+    },
+    {
+      "id": "227b1f37-ef4b-40c6-bfd1-9e7dbed25030",
+      "path": "files/227b1f37-ef4b-40c6-bfd1-9e7dbed25030.png",
+      "name": "poster-runtime",
+      "folderId": "4c64c4e8-3a99-4af7-9816-bcc889826c4f",
+      "mime": "image/png",
+      "size": 224253,
+      "createdAt": "2026-10-27T14:34:21.577Z"
     }
   ]
 }
