@@ -382,6 +382,15 @@
       "mime": "image/png",
       "size": 1999839,
       "createdAt": "2026-11-02T21:24:02.525Z"
+    },
+    {
+      "id": "04b096bc-9a07-4e6a-b2a2-7e52896a8481",
+      "path": "files/04b096bc-9a07-4e6a-b2a2-7e52896a8481.jpg",
+      "name": "archive",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/jpeg",
+      "size": 55176,
+      "createdAt": "2026-11-02T21:24:55.749Z"
     }
   ]
 }
