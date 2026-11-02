@@ -364,6 +364,15 @@
       "mime": "image/gif",
       "size": 4681660,
       "createdAt": "2026-10-27T14:35:04.882Z"
+    },
+    {
+      "id": "00745e22-26f8-4180-9083-a462bd7ef29e",
+      "path": "files/00745e22-26f8-4180-9083-a462bd7ef29e.png",
+      "name": "poster16_9",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/png",
+      "size": 2130108,
+      "createdAt": "2026-11-02T21:23:55.914Z"
     }
   ]
 }
