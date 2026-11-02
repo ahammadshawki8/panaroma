@@ -373,6 +373,15 @@
       "mime": "image/png",
       "size": 2130108,
       "createdAt": "2026-11-02T21:23:55.914Z"
+    },
+    {
+      "id": "3625b23a-d031-4d4a-970b-055d7a86f0c7",
+      "path": "files/3625b23a-d031-4d4a-970b-055d7a86f0c7.png",
+      "name": "poster4_3",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/png",
+      "size": 1999839,
+      "createdAt": "2026-11-02T21:24:02.525Z"
     }
   ]
 }
