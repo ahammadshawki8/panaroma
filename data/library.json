@@ -436,6 +436,15 @@
       "mime": "image/jpeg",
       "size": 42189,
       "createdAt": "2026-11-02T21:25:38.206Z"
+    },
+    {
+      "id": "379dd946-5801-4e89-ac79-f6d69e359b72",
+      "path": "files/379dd946-5801-4e89-ac79-f6d69e359b72.jpg",
+      "name": "trials",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/jpeg",
+      "size": 45701,
+      "createdAt": "2026-11-02T21:25:44.981Z"
     }
   ]
 }
