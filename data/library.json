@@ -391,6 +391,15 @@
       "mime": "image/jpeg",
       "size": 55176,
       "createdAt": "2026-11-02T21:24:55.749Z"
+    },
+    {
+      "id": "4bbcdc7f-8cef-442d-a0f1-a5de3f6cfce0",
+      "path": "files/4bbcdc7f-8cef-442d-a0f1-a5de3f6cfce0.jpg",
+      "name": "canonization",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/jpeg",
+      "size": 47076,
+      "createdAt": "2026-11-02T21:25:01.694Z"
     }
   ]
 }
