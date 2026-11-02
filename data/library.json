@@ -445,6 +445,15 @@
       "mime": "image/jpeg",
       "size": 45701,
       "createdAt": "2026-11-02T21:25:44.981Z"
+    },
+    {
+      "id": "24224e62-f79b-49b5-8ef1-aca60c60a5cd",
+      "path": "files/24224e62-f79b-49b5-8ef1-aca60c60a5cd.jpg",
+      "name": "vote",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/jpeg",
+      "size": 43522,
+      "createdAt": "2026-11-02T21:25:50.224Z"
     }
   ]
 }
