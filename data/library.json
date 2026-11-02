@@ -400,6 +400,15 @@
       "mime": "image/jpeg",
       "size": 47076,
       "createdAt": "2026-11-02T21:25:01.694Z"
+    },
+    {
+      "id": "5fe75af6-797d-4b2e-978a-d74815c27f24",
+      "path": "files/5fe75af6-797d-4b2e-978a-d74815c27f24.jpg",
+      "name": "live-on-twitch",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/jpeg",
+      "size": 73004,
+      "createdAt": "2026-11-02T21:25:10.472Z"
     }
   ]
 }
