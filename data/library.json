@@ -409,6 +409,15 @@
       "mime": "image/jpeg",
       "size": 73004,
       "createdAt": "2026-11-02T21:25:10.472Z"
+    },
+    {
+      "id": "faa7224c-cd79-4083-8473-a49e15ea1c2e",
+      "path": "files/faa7224c-cd79-4083-8473-a49e15ea1c2e.gif",
+      "name": "lore-canonization",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/gif",
+      "size": 12309198,
+      "createdAt": "2026-11-02T21:25:26.702Z"
     }
   ]
 }
