@@ -427,6 +427,15 @@
       "mime": "image/jpeg",
       "size": 45316,
       "createdAt": "2026-11-02T21:25:32.398Z"
+    },
+    {
+      "id": "359b8c4d-4d51-49e1-8b08-5446fa20eebb",
+      "path": "files/359b8c4d-4d51-49e1-8b08-5446fa20eebb.jpg",
+      "name": "summon",
+      "folderId": "cd102408-ad87-40d3-8daf-8fa17930bb0f",
+      "mime": "image/jpeg",
+      "size": 42189,
+      "createdAt": "2026-11-02T21:25:38.206Z"
     }
   ]
 }
